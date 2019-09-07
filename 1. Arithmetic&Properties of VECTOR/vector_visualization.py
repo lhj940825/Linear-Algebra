@@ -9,6 +9,7 @@ def saveFig(plt):
     results_dir = os.path.join(script_dir, 'Properties/')
     file_name = "equal_vectors.png"
 
+    # in case the directory does not exist, create a directory for saving figures.
     if not os.path.isdir(results_dir):
         os.makedirs(results_dir)
 
